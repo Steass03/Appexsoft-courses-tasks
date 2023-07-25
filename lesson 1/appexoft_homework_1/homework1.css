@@ -1,0 +1,47 @@
+body{
+    font-family:'Tektur', cursive;    
+    background-image: linear-gradient( Red , Orange, Yellow, Green, Blue, Indigo, Violet);
+}
+header{ 
+    color:white;
+    padding: 20px;
+    background-color:rgb(239, 27, 27);
+}
+footer{
+    background-color: rgb(193, 31, 218);
+    margin: 30px;
+    color:white;
+}
+p{
+    font-size: 20pt;
+    text-align: center;
+    color:white;
+    
+}
+img{
+    width: 300px;
+    height: auto;
+}
+ul{
+    text-align: center;
+}
+li{
+    display:inline;
+    margin: 20px;
+}
+p:hover{
+    color:black;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(Red, Yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1::after{
+    content:" :-) ";
+}
+.text_list
+{
+    color:blue;
+}
