@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.bg-div {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: url("https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886_640.jpg")
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main_form {
+  position: absolute;
+  left: 37%;
+  top: 15%;
+}
+
+.info-input {
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+}
+h1 {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 900;
+}
+.form_conrol {
+  width: 70%;
+  height: auto;
+  padding: 50px;
+  border-radius: 10px;
+  background-image: linear-gradient(to left bottom, yellowgreen, green);
+}
+button:hover {
+  background-image: linear-gradient(to left bottom, yellowgreen, green);
+}
+.submit_btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+}
+label {
+  margin-right: 15px;
+}
+#third_info {
+  margin-top: 20px;
+}
+::placeholder {
+  color: white;
+}
+.radio_btn {
+  color: white;
+}
