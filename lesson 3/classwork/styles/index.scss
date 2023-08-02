@@ -22,6 +22,9 @@ body {
       gap: 20px;
       display: flex;
       list-style: none;
+      @media screen and (max-width: 469px) {
+        display: none;
+      }
       li {
         font-size: 20px;
       }
@@ -41,6 +44,9 @@ body {
     display: flex;
     align-items: center;
     gap: 57px;
+    @media screen and (max-width: 469px) {
+      flex-direction: column-reverse;
+    }
     .header-title {
       font-size: 64px;
       font-weight: 600;
@@ -63,6 +69,63 @@ body {
       color: white;
       cursor: pointer;
       margin-top: 61px;
+    }
+  }
+  .skills-title {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 103px;
+  }
+  .left-item {
+    border-radius: 10px;
+    background: #f5f5f5;
+    max-width: 435px;
+    height: auto;
+    padding: 35px 22px 0 23px;
+    .left-item-img {
+      max-width: 390px;
+      max-height: 390px;
+    }
+    .left-item-margin {
+      padding-left: 20px;
+      .item-title {
+        color: #263238;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 4px 0 5px;
+      }
+      .item-descr {
+        color: #8f95a5;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 347px;
+        margin-bottom: 36px;
+      }
+      .item-button {
+        border-radius: 5px;
+        background: #263238;
+        padding: 17px 64px 17px 64px;
+        color: #fff;
+        font-size: 18px;
+        font-size: 18px;
+        font-family: inherit;
+        margin: 36px 0 92px;
+      }
+    }
+  }
+  .flex-wrapper-row {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    @media screen and (max-width: 469px) {
+      flex-direction: column;
+    }
+  }
+  .responsive {
+    @media screen and (max-width: 469px) {
+      width: 400px;
     }
   }
 }
