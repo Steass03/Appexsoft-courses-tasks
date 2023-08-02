@@ -1,0 +1,72 @@
+body {
+  margin:0;
+  
+	font-family: 'Playfair Display', serif;
+  background-image: url("img_index_my/background_pict.webp");
+  height: 100vh;
+  
+
+}
+
+header {
+  max-width: 100%;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1.title{
+  border-bottom-style:dashed ;
+  text-align: center;
+  color:blueviolet;
+  font-style:italic;
+  
+}
+.menu-head {
+  float:right;
+}
+.menu-head li{
+  line-height: 40px;
+	display: inline-block;	
+	text-transform: uppercase;
+  border: 2px solid green;
+}
+
+p{
+  text-align: center;
+  border:5px solid greenyellow;
+  background-color: coral;
+ 
+}
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h3{
+  text-align: center;
+  border-style: dotted;
+}
+.footer-menu{
+  float:left;
+}
+.footer-menu li{
+line-height: 150%;
+border: 4px solid red;
+}
+.sign-up{
+  text-align: right;
+  background-color: aquamarine;
+}
+div.social{
+  text-align: center;
+}
+.links{
+
+  text-align: center;
+  width: 50%;
+}
+
