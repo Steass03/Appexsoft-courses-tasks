@@ -93,13 +93,13 @@ const developer = "Developer";
 
 // const ternary = developer ? console.log(developer) : console.log("it's false");
 
-switch (developer) {
-  case "Developer":
-    console.log("I am a developer");
-
-  case "Frontend":
-    console.log("I am a Frontend developer");
-    break;
-  default:
-    console.log("Hello dude");
-}
+// switch (developer) {
+//   case "Developer":
+//     console.log("I am a developer");
+//     break;
+//   case "Frontend":
+//     console.log("I am a Frontend developer");
+//     break;
+//   default:
+//     console.log("Hello dude");
+// }

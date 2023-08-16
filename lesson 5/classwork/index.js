@@ -1,5 +1,5 @@
-// const a = "Hello BOB";
-// console.log(a);
+const a = "Hello BOB";
+console.log(a);
 
 // let b = 2;
 // b = 4;
