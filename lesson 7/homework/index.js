@@ -1,46 +1,33 @@
-let url = "https://jsonplaceholder.typicode.com/users/1";
-async function AsyncgetData() {
-  fetch(url)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("HTTP-Error:" + response.statusText);
-      }
-      return response.json();
-    })
-    .catch((error) => console.log(error));
-}
-AsyncgetData();
+// async function getInfo() {
+//   let url = "https://jsonplaceholder.typicode.com/users/1";
+//   try {
+//     const response = await fetch(url);
+//     const data = await response.json();
+//     const { id, name, username, email, phone, website } = data;
+//     console.log(id, name, username, email, phone, website);
+//   } catch (error) {
+//     console.warn(error);
+//   }
+// }
+// getInfo();
 
-function GetInfo1() {
-  const apiUrl = "https://jsonplaceholder.typicode.com/users/1";
+// function getUser() {
+//   fetch("https://jsonplaceholder.typicode.com/users/1")
+//     .then((response) => {
+//       if (!response.ok) {
+//         throw new Error(`HTTP error! Status: ${response.status}`);
+//       }
+//       return response.json();
+//     })
+//     .then((user) => {
+//       const { id, name, username, email, phone, website } = user;
+//       console.log(
+//         ` User \nId: ${id}, \nName: ${name}, \nUsername: ${username}, \nEmail: ${email}, \nPhone: ${phone}, \nWebsite: ${website}`
+//       );
+//     })
+//     .catch((error) => {
+//       console.error("Error fetching user:", error);
+//     });
+// }
 
-  return fetch(apiUrl)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.json(); // Parse the response body as JSON
-    })
-    .then((data) => {
-      // Handle the API response data here
-      const information = data.results.map((info) => ({
-        id: info.id,
-        name: info.name,
-        username: info.username,
-        email: info.email,
-        phone: info.phone,
-        website: info.website,
-      }));
-
-      // Return the processed film information
-      return information;
-    })
-    .catch((error) => {
-      console.error("Fetch Error:", error);
-    });
-}
-
-// Call the function and work with the resolved promise
-GetInfo1().then((information) => {
-  console.log("Star Wars Films:", information);
-});
+// getUser();

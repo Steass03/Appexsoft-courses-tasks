@@ -4,8 +4,6 @@ const order = {
   addres: "Lviv",
 };
 
-delete order.addres;
-let { number, goods, addres } = order;
-document.getElementById(
-  "delete_info"
-).innerHTML = `<p>New info  </p><p>Number : ${number}</p><p>Goods : ${goods}</p><p>Address: ${addres}</p>`;
+const { addres, ...remainingOrder } = order;
+console.log("Original: ", order);
+console.log("COPY : ", remainingOrder);
