@@ -1,0 +1,21 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  border-radius: 10px;
+  border: solid blue;
+  background-color: aqua;
+}
+.mainInfo {
+  justify-content: center;
+}
+.list-item {
+  margin: 10px;
+  border-radius: 3px;
+}
+.items {
+  display: flex;
+  display: table-row;
+  border: solid aqua;
+}
