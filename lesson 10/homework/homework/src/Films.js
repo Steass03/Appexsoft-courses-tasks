@@ -23,9 +23,13 @@ const Films = () => {
         {films.map((item) => {
           return (
             <div className="mainInfo" key={item.episode_id}>
-              <li className="item">
+              <li className="items">
                 <h1>{item.title}</h1>
                 <p>{item.director}</p>
+                <h3>Characters</h3>
+                <li>
+                  <p>{item.characters}</p>
+                </li>
               </li>
             </div>
           );
