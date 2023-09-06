@@ -13,7 +13,7 @@ class Expandable extends React.Component {
     }
   };
   showHide = () => {
-    this.state.height == "auto"
+    this.state.height === "auto"
       ? this.setState({ height: "3.3em" })
       : this.setState({ height: "auto" });
   };
