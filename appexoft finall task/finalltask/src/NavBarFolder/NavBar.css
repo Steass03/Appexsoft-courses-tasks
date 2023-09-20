@@ -1,0 +1,34 @@
+nav {
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05),
+    0px 4px 12px 0px rgba(0, 0, 0, 0.07);
+  padding: 9px 12px 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.Navbar {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.AllProduct {
+  text-decoration: none;
+  color: #3b71ca;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.Cart {
+  text-decoration: none;
+  color: #3b71ca;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+}

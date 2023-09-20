@@ -1,0 +1,64 @@
+.card {
+  padding-inline: 12px;
+}
+.card-item {
+  margin-inline: 12px;
+}
+.column {
+  border-radius: 8px;
+  background-color: #ffff;
+}
+
+.pict {
+  width: 240px;
+  height: auto;
+}
+
+.phone-name {
+  color: #4f4f4f;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.phone-price {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  padding-left: 24px;
+  padding-top: 8px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.addToCartBTN {
+  font-size: 12px;
+  color: #ffff;
+  background-color: #3b71ca;
+  padding: 10px 26px 8px 26px;
+  margin-left: 24px;
+  margin-top: 15.59px;
+  margin-bottom: 24px;
+  max-width: 128.69px;
+  border-radius: 4px;
+  border: none;
+}
+.row {
+  border-radius: 7px 7px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (max-width: 420px) {
+  .pict {
+    width: 350px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
