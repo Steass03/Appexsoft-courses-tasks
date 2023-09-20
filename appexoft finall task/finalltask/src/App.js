@@ -10,7 +10,6 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<NavBar />} />
         <Route path="/AllProduct" element={<ProductItem />} />
         <Route path="/Cart" element={<Cart />} />
       </Routes>
